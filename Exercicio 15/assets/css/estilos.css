@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: transform 2000ms;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    transition: transform 2000ms;
+}
+
+#sol img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    animation: sol 30s infinite linear;
+}
+#mercurio {
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mercurio img{
+    width: 20px;
+    animation: mercurio 2s linear infinite;
+}
+#venus{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#venus img{
+    width: 40px;
+    animation: venus 2.5s linear infinite;
+}
+#terra{
+    position: absolute;
+    height: 475px;
+    width: 475px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#terra img{
+    width: 45px;
+    animation: terra 3s linear infinite;
+}
+#marte{
+    position: absolute;
+    height: 555px;
+    width: 555px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#marte img{
+    width: 30px;
+    animation: marte 3.5s linear infinite;
+}
+#jupiter{
+    position: absolute;
+    height: 660px;
+    width: 660px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jupiter img{
+    width: 70px;
+    animation: jupiter 4s linear infinite;
+}
+#saturno{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#saturno img{
+    width: 140px;
+    animation: saturno 4.5s linear infinite;
+}
+#urano{
+    position: absolute;
+    height: 940px;
+    width: 940px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#urano img{
+    width: 50px;
+    animation: urano 5s linear infinite;
+}
+#netuno{
+    position: absolute;
+    height: 1040px;
+    width: 1040px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#netuno img{
+    width: 50px;
+    animation: netuno 5.5s linear infinite;
+}
+
+@keyframes sol {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+
+  @keyframes mercurio {
+    from {
+        transform: rotate(0deg) translate(160px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(160px) rotate(0deg);
+    }
+  }
+  @keyframes venus {
+    from {
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(200px) rotate(0deg);
+    }
+  }
+  @keyframes terra {
+    from {
+        transform: rotate(0deg) translate(240px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(240px) rotate(0deg);
+    }
+  }
+  @keyframes marte {
+    from {
+        transform: rotate(0deg) translate(280px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(280px) rotate(0deg);
+    }
+  }
+  @keyframes jupiter {
+    from {
+        transform: rotate(0deg) translate(330px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(330px) rotate(0deg);
+    }
+  }
+  @keyframes saturno {
+    from {
+        transform: rotate(0deg) translate(400px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(400px) rotate(0deg);
+    }
+  }
+  @keyframes urano {
+    from {
+        transform: rotate(0deg) translate(470px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(470px) rotate(0deg);
+    }
+  }
+  @keyframes netuno {
+    from {
+        transform: rotate(0deg) translate(520px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(520px) rotate(0deg);
+    }
+  }
